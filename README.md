@@ -9,3 +9,7 @@ A lab case study on weak service-account passwords, accounts without Kerberos pr
 | Broad write access over an account | Review the effective ACL and remove delegation that the service does not need. | Verify the same low-privilege principal no longer has the write access. |
 
 Use ticket-request telemetry and directory change logs to support the investigation. A ticket request by itself does not establish that a password was recovered. Confirm any authentication claim with separate evidence from the authorized lab.
+
+## Usage terms
+
+Original material owned by 0xjyothendra requires written permission for modification or redistribution. Third-party content, assets, and earlier licensed releases retain their applicable terms. See [LICENSE](LICENSE).
